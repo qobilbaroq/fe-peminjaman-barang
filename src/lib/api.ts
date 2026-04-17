@@ -6,7 +6,7 @@ export async function getProduct() {
 }
 
 export async function addProduct(data: object) {
-    const res = await fetch(`${BASE_URL}/product`, {
+    const res = await fetch(`${BASE_URL}/products`, {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify(data),
@@ -15,7 +15,7 @@ export async function addProduct(data: object) {
 }
 
 export async function deleteProduct(id:number) {
-    const res = await fetch(`${BASE_URL}/product/${id}`, {
+    const res = await fetch(`${BASE_URL}/products/${id}`, {
         method: "DELETE"
     })
     return res.ok

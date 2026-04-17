@@ -1,49 +1,58 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "laptop",
-            "category": "elektronik",
-            "stock":15,
-            "unit": "unit",
-            "price": 7000000,
-            "suppiler": "pt.asus",
-            "createdAt": "2026-04-02"
-        },
-        {
-            "id": 2,
-            "name": "laptop",
-            "category": "elektronik",
-            "stock":15,
-            "unit": "unit",
-            "price": 7000000,
-            "suppiler": "pt.asus",
-            "createdAt": "2026-04-02"
-        },
-        {
-            "id": 3,
-            "name": "laptop",
-            "category": "elektronik",
-            "stock":15,
-            "unit": "unit",
-            "price": 7000000,
-            "suppiler": "pt.asus",
-            "createdAt": "2026-04-02"
-        },
-        {
-            "id": 4,
-            "name": "laptop",
-            "category": "elektronik",
-            "stock":15,
-            "unit": "unit",
-            "price": 7000000,
-            "suppiler": "pt.asus",
-            "createdAt": "2026-04-02"
-        }
-    ],
-    "categories": [
-        { "id": 1 , "name": "elektronik"},
-        { "id": 2 , "name": "aksesoris" },
-        { "id": 3 , "name": "furnitur"}
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "laptop",
+      "category": "elektronik",
+      "stock": 15,
+      "unit": "unit",
+      "price": 7000000,
+      "supplier": "pt.asus",
+      "createdAt": "2026-04-02"
+    },
+    {
+      "id": 2,
+      "name": "laptop",
+      "category": "elektronik",
+      "stock": 15,
+      "unit": "unit",
+      "price": 7000000,
+      "supplier": "pt.asus",
+      "createdAt": "2026-04-02"
+    },
+    {
+      "id": 3,
+      "name": "laptop",
+      "category": "elektronik",
+      "stock": 15,
+      "unit": "unit",
+      "price": 7000000,
+      "supplier": "pt.asus",
+      "createdAt": "2026-04-02"
+    },
+    {
+      "id": 4,
+      "name": "laptop",
+      "category": "elektronik",
+      "stock": 15,
+      "unit": "unit",
+      "price": 7000000,
+      "supplier": "pt.asus",
+      "createdAt": "2026-04-02"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "elektronik"
+    },
+    {
+      "id": 2,
+      "name": "aksesoris"
+    },
+    {
+      "id": 3,
+      "name": "furnitur"
+    }
+  ]
 }
